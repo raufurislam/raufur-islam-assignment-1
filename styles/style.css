@@ -1,0 +1,96 @@
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Nav styles starts here */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 150px;
+}
+.nav-title {
+  font-size: 28px;
+  font-weight: 800;
+}
+.btn-1 {
+  padding: 17px 24px;
+  border-radius: 8px;
+  border: 1px solid black;
+  opacity: 0.8;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Nav styles ends here */
+
+/* hero-bg starts here */
+.hero-bg-container {
+  /* border: 2px solid red; */
+  height: 652px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  background-image: url(/assets/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-bg-container-group {
+  /* border: 2px solid red; */
+  width: 998px;
+  height: 582px;
+  margin: 0 auto;
+}
+.hero-bg-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-bg-content h1 {
+  width: 998px;
+  height: 136px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 32px;
+}
+.hero-bg-content p {
+  width: 852px;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-align: center;
+  margin-top: 0;
+}
+.btn-2 {
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  margin-top: 10px;
+  padding: 21px 24px 21px 24px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* hero-bg section ends here */
+
+/* Why webdevelopment section starts here */
+/* Why webdevelopment section ends here */
